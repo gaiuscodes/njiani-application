@@ -1,0 +1,22 @@
+{
+  "name": "njiani",
+  "version": "1.0.0",
+  "description": "Njiani - Mizigo njiani - Real-time delivery marketplace",
+  "main": "server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && nodemon server.js",
+    "client": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "seed": "cd backend && node scripts/seed.js",
+    "start": "cd backend && node server.js"
+  },
+  "keywords": ["delivery", "marketplace", "real-time"],
+  "author": "Gaius",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.2"
+  }
+}
+

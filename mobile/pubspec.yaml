@@ -1,0 +1,71 @@
+name: njiani_mobile
+description: Njiani - Mizigo njiani. Real-time delivery marketplace mobile app.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # HTTP & API
+  http: ^1.1.0
+  dio: ^5.4.0
+
+  # Storage
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+
+  # UI Components
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  image_picker: ^1.0.5
+  cached_network_image: ^3.3.0
+
+  # Real-time
+  socket_io_client: ^2.0.3+1
+
+  # Utils
+  intl: ^0.18.1
+  url_launcher: ^6.2.2
+  permission_handler: ^11.1.0
+
+  # UI Enhancements
+  flutter_animate: ^4.2.0
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+
+
+
+
+
+
+
+
